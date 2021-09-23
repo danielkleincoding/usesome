@@ -2,17 +2,17 @@ v 3
 d usesome: Stata module to load a subset of Stata dataset
 d
 d
-d {cmd:usesome} is a convenience command for loading a subset of 
+d usesome is a convenience command for loading a subset of 
 d a Stata dataset into memory. The command makes it easy to 
 d specify variables ...
 d
 d ... referring to column positions in the dataset
 d
-d ... {cmd:not} to be loaded
+d ... not to be loaded
 d
 d ... referring to properties (e.g., numeric variables)
 d
-d {cmd:usesome} is mainly intended for use with flavors of Stata, 
+d usesome is mainly intended for use with flavors of Stata, 
 d namely Stata BE (which was called Stata IC before Stata 17), 
 d that cannot load the full dataset due to restricting the number 
 d of variables.
