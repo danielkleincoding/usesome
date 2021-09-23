@@ -1,0 +1,2 @@
+v 3
+p usesome Stata module to load a subset of Stata dataset
