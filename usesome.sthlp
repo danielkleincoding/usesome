@@ -56,9 +56,11 @@ be enclosed in double quotes.
 {p_end}
 
 {syntab:{it:selection-options}}
-{synopt:{opt has(spec)}}load variables that match {it:spec} 
+{synopt:{opt has(spec)}}load variables that match {it:spec}; 
+see {help ds} 
 {p_end}
-{synopt:{opt not(spec)}}load variables that do not match {it:spec}
+{synopt:{opt not(spec)}}load variables that do not match {it:spec}; 
+see {help ds}
 {p_end}
 {synopt:{opt inse:nsitive}}perform case-insensitive pattern matching
 {p_end}
@@ -112,6 +114,7 @@ same as with {help use}.
 
 {marker s_opts}{...}
 {dlgtab:Selection options}
+
 {phang}
 {opt has(spec)} and {opt not(spec)} select from {it:filename} 
 the subset of variables that meet or fail the specification 
@@ -216,7 +219,7 @@ volume 10, number 2. ({browse "http://www.stata-journal.com/article.html?article
 
 {pstd}
 Daniel Klein{break}
-University of Kassel{break}
+{* German Centre for Higher Education Research and Science Studies{break}}
 klein.daniel.81@gmail.com
 
 
